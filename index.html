@@ -8,7 +8,7 @@
 	<meta property="og:description" content="code4aceh"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
-<title>私のCode4Aceh-DigitalEarthArchive</title>
+<title>Code4Aceh-DigitalEarthArchive</title>
 	<link rel="SHORTCUT ICON" href="img/favicon.ico">
 	<style>
 		@import url(Build/Cesium/Widgets/widgets.css);
@@ -23,10 +23,8 @@
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
 	ga('create', 'UA-55397811-5', 'auto');
 	ga('send', 'pageview');
-
 	</script>
 </head>
 <body>
@@ -82,7 +80,6 @@
 	</div>
 -->
 	<script>
-
 	var blackOutDiv = document.getElementById("blackOut");
 	function viewPoints(_label, _lat, _lng, _heading, _pitch, _range) {
 		this.label = _label;
@@ -92,36 +89,28 @@
 		this.pitch = _pitch;
 		this.range = _range;
 	}
-
 	var viewPointsArray=[];
 		viewPointsArray[0]=new viewPoints("Balohan",4.633426,95.578812,0,-85,50000);
 		viewPointsArray[1]=new viewPoints("BlangEdit",4.633426,95.578812,0,-85,50000);
 		viewPointsArray[2]=new viewPoints("KetapangEdit",4.633426,95.578812,0,-85,50000);
 		viewPointsArray[3]=new viewPoints("Views from above",5.223058,95.737349,0,-85,180000);
-		viewPointsArray[4]=new viewPoints("First View",4.633426,95.578812,0,-20,1000);
-
-
+		viewPointsArray[4]=new viewPoints("First View", 35.689314,139.691783,0,-100,30000);
 		function kmlData(_label, _url) {
 			this.label = _label;
 			this.url = _url;
 		}
-
 		var kmlDataArray=[];
-			kmlDataArray[0]=new kmlData("Aceh",'kml/code4aceh.kml');
-
+			kmlDataArray[0]=new kmlData("Aceh",'kml/cafe.kml');
 		var osm;
 		var mobile = 0;
 		var viewPointChangeMenu = document.getElementById('slide_menu');
 		var dropDownList = "";
-
 		for (var i=0; i<viewPointsArray.length; i++) {
 			dropDownList = dropDownList + '<li><a href="#" onclick = "changeViewPoint(' + i + ',' + '5.0);return false;">' + viewPointsArray[i].label + '</a></li>';
 		}
-
 		var viewPointChangeMenuHtml = '<ul class="viewpoint">' + dropDownList + '</ul>';
 		console.log (viewPointChangeMenuHtml);
 		viewPointChangeMenu.innerHTML = viewPointChangeMenuHtml;
-
 		var getDevice = (function(){
 			var ua = navigator.userAgent;
 			if(ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0){
@@ -132,12 +121,13 @@
 				mobile = 0;
 			}
 		})();
-
 		var viewer = [];
-
-
 		if (mobile == 0) {
 			viewer = new Cesium.Viewer('cesiumContainer',{
+			imageryProvider : new Cesium.ArcGisMapServerImageryProvider({
+                   		url : 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer'
+               		}),
+               		baseLayerPicker : false,
 			navigationHelpButton : false,
 			geocoder:false,
 			timeline: false,
@@ -154,6 +144,10 @@
 			});
 		} else {
 			viewer = new Cesium.Viewer('cesiumContainer',{
+				imageryProvider : new Cesium.ArcGisMapServerImageryProvider({
+                   			url : 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer'
+               			}),
+               			baseLayerPicker : false,
 				sceneMode: Cesium.SceneMode.COLUMBUS_VIEW,
 				navigationHelpButton : false,
 				geocoder:false,
@@ -171,25 +165,20 @@
 				destination : Cesium.Cartesian3.fromDegrees(132.45470999999998,34.394915,100000),
 			});
 		}
-
-
 		if (mobile != 0) {
 			viewer.scene.screenSpaceCameraController.enableTilt = false;
 		}
 		blackOut(0);
 		setTimeout('groundZero()',0);
-
 		function groundZero(){
 			changeViewPoint(3,3);
 			setTimeout('landing()',4000);
 		}
-
 		function landing(){
 			changeViewPoint(4,3);
 			setTimeout('blackOut(1)',4000);
 			setTimeout('loadKml()',10000);
 		}
-
 		function loadKml(){
 			var i = 0;
 			var load = setInterval(function(){
@@ -215,29 +204,24 @@
 				}
 			}, 200);
 		}
-
 		function transParent(){
 			osm.alpha = document.getElementById("range01").value * 0.05;
 		}
-
 		function changeViewPoint(num, delay) {
 			var newLat = viewPointsArray[num].lat;
 			var newLng = viewPointsArray[num].lng;
 			var newHeading = Cesium.Math.toRadians(viewPointsArray[num].heading);
 			var newPitch = Cesium.Math.toRadians(viewPointsArray[num].pitch);
 			var newRange = viewPointsArray[num].range;
-
 			var center = Cesium.Cartesian3.fromDegrees(newLng, newLat);
 			var boundingSphere = new Cesium.BoundingSphere(center, newRange);
 			var headingPitchRange = new Cesium.HeadingPitchRange(newHeading, newPitch, newRange);
-
 		    viewer.camera.constrainedAxis = Cesium.Cartesian3.UNIT_Z;
 			viewer.camera.flyToBoundingSphere(boundingSphere,{
 				duration : delay,
 				offset : headingPitchRange
 			});
 		}
-
 		function blackOut(param) {
 			if (param == 0){
 				$(function() {
@@ -253,18 +237,14 @@
 		$("#zentai").click(function(){
 			changeViewPoint(0,3);
 		})
-
 		$("#scene_2d").click(function(){
 			changeViewPoint(20,3);
 		})
 */
-
-
 /*
 		$("#check_bar :checkbox").click(function() {
 			viewer.dataSources.removeAll();
 			viewer.dataSources.add(Cesium.KmlDataSource.load('kml/yokohama_pass.kml'));
-
 			if(document.check_box.local1.checked){
 				viewer.dataSources.add(Cesium.KmlDataSource.load('kml/yokohama_player.kml'));
   			}
@@ -276,7 +256,6 @@
   			}
 		})
 */
-
 /*
 		(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
@@ -286,7 +265,6 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));
 */
-
 	</script>
 </body>
 </html>

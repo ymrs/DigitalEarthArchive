@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>uta.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff5a15ff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<color>ff5a15ff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>無題 - フォルダ</name>
+		<open>1</open>
+		<Placemark>
+			<name>夏色/ゆず</name>
+			<description><![CDATA[<img src="http://i0.wp.com/ticketcamp.net/live-blog/wp-content/uploads/sites/3/2014/07/eda485de34417820d61867185615fad5.jpeg?resize=444%2C348"/>
+
+<h1>
+〜♪この長い長い下り坂を君を自転車の後ろに乗せて
+ブレーキいっぱい握りしめて
+ゆっくりゆっくり下ってく♪〜
+
+<h2>
+<a href="https://youtu.be/4j4olwaljW0">https://youtu.be/4j4olwaljW0</a>
+<h2>
+鬼坂]]></description>
+			<LookAt>
+				<longitude>139.6064444543981</longitude>
+				<latitude>35.41895597353545</latitude>
+				<altitude>0</altitude>
+				<heading>75.05901563910648</heading>
+				<tilt>45.00007669250523</tilt>
+				<range>102.6882583497809</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.6064444543981,35.41895597353545,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>桜坂/福山雅治</name>
+			<description><![CDATA[<img src="http://contents.oricon.co.jp/upimg/news/20150323/2050436_201503230554646001427084678c.jpg"/>
+
+<h1>
+〜♪揺れる木漏れ日　薫る桜坂♪〜
+
+<h2>
+<a href="https://youtu.be/Gpi2URlE354?list=PLw0L1DrZ1fV8JNeEQrmKw4NFhRJhIw9Td">https://youtu.be/Gpi2URlE354?list=PLw0L1DrZ1fV8JNeEQrmKw4NFhRJhIw9Td</a>
+<h2>
+桜坂]]></description>
+			<LookAt>
+				<longitude>139.6751594644137</longitude>
+				<latitude>35.58566459195458</latitude>
+				<altitude>0</altitude>
+				<heading>1.575754415986893e-06</heading>
+				<tilt>29.99895970235156</tilt>
+				<range>63.34126141634034</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.6751594644137,35.58566459195458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>赤い電車/くるり</name>
+			<description><![CDATA[<img src="http://kyoto-np.co.jp/picture/2015/09/20150902181744kururi.jpg"/>
+
+<h1>
+〜♪赤い電車に乗っかって
+僕はどこかへ行ってしまいたい♪〜
+
+<h2>
+<a href="https://youtu.be/6VbrbcXp3Fc">https://youtu.be/6VbrbcXp3Fc</a>
+<h2>
+京浜急行]]></description>
+			<LookAt>
+				<longitude>139.7303131262553</longitude>
+				<latitude>35.6259110420609</latitude>
+				<altitude>0</altitude>
+				<heading>-1.960318657091163e-08</heading>
+				<tilt>0</tilt>
+				<range>5741.791722256357</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7373804542054,35.62591081377463,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>三国駅/aiko</name>
+			<description><![CDATA[<img src="http://cdfront.tower.jp/~/media/Images/Mag/TowerPlus/2014/6-10/_aiko2.jpg"/>
+
+<h1>
+〜♪変わらない町並み　あそこのボーリング場♪〜
+
+<h2>
+<a href="https://youtu.be/fdP9DqRT9i8">https://youtu.be/fdP9DqRT9i8</a>
+<h2>
+大阪音楽短期大学]]></description>
+			<LookAt>
+				<longitude>135.4708992957808</longitude>
+				<latitude>34.7530128976885</latitude>
+				<altitude>0</altitude>
+				<heading>-2.40506547791972e-09</heading>
+				<tilt>0</tilt>
+				<range>1000.000038292334</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>135.4708992957808,34.75301289768851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>透明飛行船/BUMP OF CHICKEN</name>
+			<description><![CDATA[<img src="http://nihongogo.com/wordpress/wp-content/uploads/2015/03/Bump-Of-Chicken-to-Release-New-Single-in-April-620x400.jpg"/>
+
+<h1>
+〜♪ひとり　こっそり　泣いたでしょう
+帰り道　夕焼け　宮田公園で♪〜
+
+<h2>
+宮田公園]]></description>
+			<LookAt>
+				<longitude>140.1761225007955</longitude>
+				<latitude>35.7261414054036</latitude>
+				<altitude>0</altitude>
+				<heading>-7.502409194233961e-05</heading>
+				<tilt>43.98243591179442</tilt>
+				<range>95.48960249416696</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>140.1762035087288,35.72612127426725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ロビンソン/スピッツ</name>
+			<description><![CDATA[<img src="http://orange.ap.teacup.com/popsoul/img/1350014712.jpg"/>
+
+<h1>
+〜♪新しい季節は　なぜか切ない日々で
+河原の道を自転車で　走る君を追いかけた♪〜
+
+<h2>
+<a href="https://youtu.be/51CH3dPaWXc"> https://youtu.be/51CH3dPaWXc</a>
+<h2>
+室見川]]></description>
+			<LookAt>
+				<longitude>130.3519571250471</longitude>
+				<latitude>33.5635822263375</latitude>
+				<altitude>0</altitude>
+				<heading>0.004997358683076355</heading>
+				<tilt>6.861665832237203</tilt>
+				<range>7167.328198938749</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.3423958010844,33.57037365218415,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>硝子の少年/Kinki kids</name>
+			<description><![CDATA[<img src="http://a31img.chip.jp/uimg/a/auqiue/1/d1e4avbrojA.jpg"/>
+
+<h1>
+〜♪雨が踊るバスストップ
+きみは　誰かに抱かれ♪〜
+
+<h2>
+<a href="https://youtu.be/S1e0NVg4r5E">https://youtu.be/S1e0NVg4r5E</a>
+<h2>
+新宿西口]]></description>
+			<LookAt>
+				<longitude>139.6988828273228</longitude>
+				<latitude>35.69107115785736</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003316320428894128</heading>
+				<tilt>22.35069712404542</tilt>
+				<range>148.5085800298677</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.6988828273228,35.69107115785736,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>藤沢ルーザー/ASIAN KUNG-FU GENERATION</name>
+			<description><![CDATA[<img src="http://d2mdquvz3bkqq0.cloudfront.net/live-blog/wp-content/uploads/sites/3/2014/02/6003.jpg"/>
+
+<h1>
+〜♪社会人　ライナー
+三番線のホームから
+今　手を振るよ♪〜
+
+<h2>
+<a href="https://youtu.be/XuiDe2ui3HI">https://youtu.be/XuiDe2ui3HI</a>
+<h2>
+藤沢駅]]></description>
+			<LookAt>
+				<longitude>139.4876017670377</longitude>
+				<latitude>35.3385625110516</latitude>
+				<altitude>0</altitude>
+				<heading>-1.989493539457973e-05</heading>
+				<tilt>5.939835918565413</tilt>
+				<range>730.8156360505512</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.4870826873036,35.33738102833183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Life Is Party/andymori</name>
+			<description><![CDATA[<img src="http://saitoippei.com/weblog/wp-content/uploads/2013/05/andymori+MUSICA+magazine.png"/>
+
+<h1>
+〜♪勘違いの連続が　僕らの人生なら
+Life is party　奈多の海岸
+パラグライダー飛んで行った♪〜
+<h2>
+<a href="https://youtu.be/hEAIiD8C5a8">https://youtu.be/hEAIiD8C5a8</a>
+<h2>
+奈多海岸
+]]></description>
+			<LookAt>
+				<longitude>130.4077996101625</longitude>
+				<latitude>33.69473171254721</latitude>
+				<altitude>0</altitude>
+				<heading>5.637806700596689e-09</heading>
+				<tilt>0</tilt>
+				<range>1000.000039779082</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.4065002418575,33.69518738944952,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>everything is my guitar/andymori</name>
+			<description><![CDATA[<img src="http://saitoippei.com/weblog/wp-content/uploads/2013/05/andymori+MUSICA+magazine.png"/>
+
+<h1>
+〜♪桜坂をすぎる頃に　浮かんだ言葉
+誰にも言えない　言うことはないよ♪〜
+<h2>
+<a href="https://youtu.be/SAIWRnvxmHo">https://youtu.be/SAIWRnvxmHo</a>
+
+<h2>
+桜坂駅]]></description>
+			<LookAt>
+				<longitude>130.3882372379877</longitude>
+				<latitude>33.57709917981343</latitude>
+				<altitude>0</altitude>
+				<heading>-53.89964176047188</heading>
+				<tilt>49.14904516574966</tilt>
+				<range>88.62884819881513</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.3882082085752,33.57711626969829,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>everything is my guitar/andymori</name>
+			<description><![CDATA[<img src="http://saitoippei.com/weblog/wp-content/uploads/2013/05/andymori+MUSICA+magazine.png"/>
+
+<h1>
+〜♪西通りをすぎれば　憂鬱を
+運ぶバスに　乗れと脅される♪〜
+
+<h2>
+<a href="https://youtu.be/SAIWRnvxmHo">https://youtu.be/SAIWRnvxmHo</a>
+<h2>
+天神西通り]]></description>
+			<LookAt>
+				<longitude>130.3962236492266</longitude>
+				<latitude>33.58859892051188</latitude>
+				<altitude>0</altitude>
+				<heading>-9.271166616533719e-05</heading>
+				<tilt>26.77002367834448</tilt>
+				<range>95.03242965589935</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.3964697568577,33.58863034959999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>茜色の夕日/フジファブリック</name>
+			<description><![CDATA[<img src="http://img-cdn.jg.jugem.jp/f1a/2313357/20120215_179445.jpg"/>
+
+<h1>
+〜♪茜色の夕日眺めてたら
+少し思い出すものがありました
+晴れた心の日曜日の朝
+誰もいない道　歩いたこと♪〜
+
+<h2>
+<a href="https://youtu.be/vYo-hpzuS2c?list=RDvYo-hpzuS2c">https://youtu.be/vYo-hpzuS2c?list=RDvYo-hpzuS2c</a>
+<h2>
+富士吉田]]></description>
+			<LookAt>
+				<longitude>138.8062420709898</longitude>
+				<latitude>35.48510500959231</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003792858680863161</heading>
+				<tilt>7.577796352643752</tilt>
+				<range>587.4327385320142</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.8079254246234,35.48453542717623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAKURA/いきものがかり</name>
+			<description><![CDATA[<img src="http://img.laughy.jp/7156/default_db5e095d2aa8bc71cf63e6e5b4da5364.jpg"/>
+
+<h1>
+〜♪電車から　みえたのは　いつかの面影
+二人で通った　春の大橋♪〜
+
+<h2>
+<a href="https://youtu.be/2ElZswXgISU">https://youtu.be/2ElZswXgISU</a>
+<h2>
+相模大橋]]></description>
+			<LookAt>
+				<longitude>139.3755213934712</longitude>
+				<latitude>35.45480350559981</latitude>
+				<altitude>0</altitude>
+				<heading>-3.787111903656061e-09</heading>
+				<tilt>0</tilt>
+				<range>3368.988212173176</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.3792622822804,35.46379743288816,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -52,15 +52,15 @@ a:hover{
 }
 
 .cesium-infoBox-iframe {
-	width:320px;
+	width:600px;
 	overflow:hidden;
 	padding:0px;
 	margin:0px;
 }
 
 .cesium-infoBox {
-	width:320px;
-	max-height: 505px;
+	width:600px;
+	max-height: 700px;
 	top: 100px;
 	overflow:hidden;
 	padding:0px;
@@ -84,7 +84,7 @@ a:hover{
 	right:8px;
 }
 
-#logo{
+#logo{  display: none;
 	position: absolute;
 	top: 15px;
 	left: 20px;
@@ -127,7 +127,13 @@ a:hover{
 	width: 285px;
 }
 
+#c_place{
+	display: none;
+	
+}
+
 #setsumei{
+	display: none;
 	position: absolute;
 	bottom: 10px;
 	left: 20px;
@@ -162,6 +168,7 @@ a:hover{
 }
 
 #slider {
+	display: none;
 	position: absolute;
 	width: 160px;
 	top: 70px;
@@ -233,7 +240,7 @@ a:hover{
 	#logo {
     top: 15px;
     left: 20px;
-    width: 50%;
+    width: 100%;
     bottom: auto;
     right: auto;
 }

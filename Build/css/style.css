@@ -161,15 +161,7 @@ a:hover{
     border-radius: 3px;
 }
 
-#slider {
-	position: absolute;
-	width: 160px;
-	top: 70px;
-	background: none repeat scroll 0% 0% transparent;
-	z-index: 10001;
-	right: 0%;
-	margin-left:-80px;
-}
+
 
 #scene_mode{
 	position: fixed;

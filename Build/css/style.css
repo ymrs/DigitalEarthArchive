@@ -52,15 +52,15 @@ a:hover{
 }
 
 .cesium-infoBox-iframe {
-	width:320px;
+	width:600px;
 	overflow:hidden;
 	padding:0px;
 	margin:0px;
 }
 
 .cesium-infoBox {
-	width:320px;
-	max-height: 505px;
+	width:600px;
+	max-height: 700px;
 	top: 100px;
 	overflow:hidden;
 	padding:0px;
@@ -84,7 +84,12 @@ a:hover{
 	right:8px;
 }
 
-
+#logo{  display: none;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	width: 25%;
+}
 #logo a{
 	text-decoration:none;
 }
@@ -122,7 +127,18 @@ a:hover{
 	width: 285px;
 }
 
+#c_place{
+	display: none;
+	
+}
 
+#setsumei{
+	display: none;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	width: 450px;
+}
 
 #setsumei img{
 	width: 100%;
@@ -151,7 +167,16 @@ a:hover{
     border-radius: 3px;
 }
 
-
+#slider {
+	display: none;
+	position: absolute;
+	width: 160px;
+	top: 70px;
+	background: none repeat scroll 0% 0% transparent;
+	z-index: 10001;
+	right: 0%;
+	margin-left:-80px;
+}
 
 #scene_mode{
 	position: fixed;
@@ -215,7 +240,7 @@ a:hover{
 	#logo {
     top: 15px;
     left: 20px;
-    width: 50%;
+    width: 100%;
     bottom: auto;
     right: auto;
 }
